@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "mode": "Controlled API",
+  "checks": [
+    "Repeated query uses cache",
+    "Cache survives reload",
+    "Expired cache sends a new request",
+    "Invalid saved JSON falls back to a request",
+    "Blocked storage uses memory cache"
+  ]
+}

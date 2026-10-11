@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source": "Real Pixabay API",
+  "checks": [
+    "flowers returns images",
+    "all small images load",
+    "large image opens in lightbox",
+    "cats replaces flowers",
+    "unmatched query returns empty result",
+    "loader hides",
+    "no console errors, warnings, or logs"
+  ],
+  "flowerCards": 20,
+  "errors": []
+}
