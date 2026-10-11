@@ -3,6 +3,6 @@ export default defineConfig({
   define: { global: {} },
   root: 'src',
   envDir: '..',
-  base: './',
+  base: '/goit-advancedjs-hw-03/',
   build: { outDir: '../dist', emptyOutDir: true },
 });
