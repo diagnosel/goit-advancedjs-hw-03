@@ -38,7 +38,7 @@ npm run preview
 
 Pixabay documents a client-side JavaScript example. Its API rules also require a 24-hour request cache, source attribution, and temporary use of returned image URLs. This app shows source attribution and caches successful responses for 24 hours. It uses localStorage, with a memory cache when storage is blocked. A blocked-storage cache lasts only until the page closes. Review your account rules before wider use.
 
-To deploy after approval:
+To deploy your own copy:
 
 1. Create the public repository `goit-advancedjs-hw-03` in the approved account.
 2. Upload this project folder as the repository root.
@@ -51,7 +51,7 @@ The workflow has no push trigger. A GitHub secret protects the build setting, bu
 
 ## Verification
 
-See `output/playwright/results.json`. Browser checks use controlled responses and controlled image fixtures. Screenshots show the actual local UI with those fixtures. They do not prove real Pixabay search. The real API check passed with the account owner's key. See `output/playwright/live-results.json`: flowers, cats, no matches, image loading, lightbox, and a clean console. Real screenshots have the `live-` prefix. GitHub Pages publication is in progress. Local checks passed; live-page checks are recorded separately.
+See `output/playwright/results.json`. Browser checks use controlled responses and controlled image fixtures. Screenshots show the actual local UI with those fixtures. They do not prove real Pixabay search. The real API check passed with the account owner's key. See `output/playwright/live-results.json`: flowers, cats, no matches, image loading, lightbox, and a clean console. Real screenshots have the `live-` prefix. GitHub Pages deployment passed. These real API checks also passed on the published page. The cache checks passed separately; see `output/playwright/cache-results.json`.
 
 The required folder diagram and Figma URL were missing from the pasted task. The project follows the previous homework's `src/js` and `src/css` layout. Exact diagram and Figma matching remain unverified.
 

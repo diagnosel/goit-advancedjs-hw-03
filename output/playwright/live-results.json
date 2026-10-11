@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "source": "Real Pixabay API",
+  "source": "GitHub Pages with real Pixabay API",
   "checks": [
     "flowers returns images",
     "all small images load",
