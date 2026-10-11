@@ -26,7 +26,7 @@ npm run preview
 - `src/index.html`: search form, loader, and gallery.
 - `src/js/pixabay-api.js`: Axios request; returns `response.data`.
 - `src/js/render-functions.js`: gallery markup, one lightbox, and loader controls.
-- `src/js/main.js`: form checks, messages, and Promise chain.
+- `src/main.js`: form checks, messages, and Promise chain.
 - `src/css/styles.css`: responsive page styles.
 - `src/css/loader.css`: CSS loader, copied from the source below.
 - `vite.config.js`: Vite root, environment folder, and relative asset paths.
@@ -53,7 +53,7 @@ The workflow has no push trigger. A GitHub secret protects the build setting, bu
 
 See `output/playwright/results.json`. Browser checks use controlled responses and controlled image fixtures. Screenshots show the actual local UI with those fixtures. They do not prove real Pixabay search. The real API check passed with the account owner's key. See `output/playwright/live-results.json`: flowers, cats, no matches, image loading, lightbox, and a clean console. Real screenshots have the `live-` prefix. GitHub Pages deployment passed. These real API checks also passed on the published page. The cache checks passed separately; see `output/playwright/cache-results.json`.
 
-The required folder diagram and Figma URL were missing from the pasted task. The project follows the previous homework's `src/js` and `src/css` layout. Exact diagram and Figma matching remain unverified.
+The folder layout now matches the supplied diagram: `src/main.js`, `src/js`, `src/css`, `src/img`, and root `assets`. Empty image folders contain `.gitkeep` so Git keeps them. The Figma URL was not supplied; exact visual matching remains unverified.
 
 ## Sources
 
